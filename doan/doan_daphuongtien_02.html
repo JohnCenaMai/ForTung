@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Nhà sách nhi đồng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div id="part1">
+        <div style="float: left;">
+            <i class="fas fa-home">
+                <span style="margin-left: 10px;">Nhà sách MA PHƯƠNG</span>
+            </i>
+        </div>
+        <div style="float: left;">
+            <a href="#part4">Thông tin</a>
+        </div>
+        <div style="float: left;">
+            <a href="#part5">Liên hệ</a>
+        </div>
+    </div>
+
+    <div id="part2">
+        <div>
+            <a href="javascript:void(0);" onclick="Show()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div>
+            <a href="#" onclick="TrinhTham()" class="a1">Trinh Thám</a>
+        </div>
+        <div>
+            <a href="#" onclick="CoTich()" class="a1">Cổ Tích</a>
+        </div>
+        <div>
+            <a href="#" onclick="KhoaHoc()" class="a1">Khoa Học</a>
+        </div>
+        <div>
+            <a href="#" onclick="NguNgon()" class="a1">Ngụ Ngôn</a>
+        </div>
+        <div>
+            <a href="#" onclick="VienTuong()" class="a1">Viễn Tưởng</a>
+        </div>
+    </div>
+
+    <div id="part3">
+        <div class="ima">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham1.jpg" class="anh" id="img1"></a>
+            </div>
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham2.jpg" class="anh" id="img2"></a>
+            </div>
+        </div>
+
+        <div class="ima">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham3.jpg" class="anh" id="img3"></a>
+            </div>
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham4.jpg" class="anh" id="img4"></a>
+            </div>
+        </div>
+
+        <div class="ima">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham5.jpg" class="anh" id="img5"></a>
+            </div>
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham6.jpg" class="anh" id="img6"></a>
+            </div>
+        </div>
+
+        <div class="ima">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham7.jpg" class="anh" id="img7"></a>
+            </div>
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham8.jpg" class="anh" id="img8"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="part4">
+        <div id="title4">
+            Thông tin về doanh nghiệp
+        </div>
+        <div class="child4">
+            <p>Công ty Ma Phương, được thành lập năm 2018</p>
+            <p>Chuyên cung cấp các loại sách tới các bạn trẻ.</p>
+            <p>Công ty có chi nhánh tại 5 tỉnh thành trên cả nước.</p>
+            <p>Hà Nội, Hưng Yên, Thái Bình, Đà Nẵng, Thành phố Hồ Chí Minh.</p>
+            <p>Miễn phí vận chuyển và giao hàng.</p>
+        </div>
+        <div class="child4">
+
+        </div>
+    </div>
+
+    <div id="part5">
+        <div id="title5">
+            Thông tin liên hệ
+        </div>
+        <div id="address">
+            <p>Địa chỉ: 445/60 Lạc Long Quân, Phường Xuân La, Quận Tây Hồ, Thành phố Hà Nội.
+            </p>
+            <p>
+                Số nhà: 09n23
+            </p>
+            <p>
+                Số điện thoại: 0386651717
+            </p>
+            <p>
+                Quản lý: Mai Thanh Hà
+            </p>
+        </div>
+        <div id="signin">
+            <div>
+                <i class="fas fa-envelope-square adjust">
+                    <input type="text" style="margin-left: 20px;border-radius: 5px;">
+                </i>
+            </div>
+            <div style="margin-top: 20px;">
+                <i class="fa fa-key adjust" aria-hidden="true">
+                    <input type="text" style="margin-left: 17px;border-radius: 5px;">
+                </i>
+            </div>
+            <div style="margin-top: 20px;">
+                <button type="submit" class="btn btn-primary">
+                    Sign In
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img src="./image/background.jpg" style="width: 100%;">
+    </div>
+
+    <script src="myScripts.js"></script>
+</body>
+
+</html>
